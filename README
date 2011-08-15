@@ -29,14 +29,25 @@ I won't come running if you change anything, it's basically free-to-abuse.
 There is one thing though, I'd love it if you left the link to my personal
 blog on the script  ():3
 
-Patch Notes:
+I have tons of ideas for this side-project, so stay tuned :)
 
 ------------------
+
+Installing:
+'OMG WHY ARE THERE NO INSTALLATION INSTRUCTIONS1?
+Because, at this point the ezEPGP is only capable of pushing json data to
+your database. And that's not very interesting. Stay tuned!
+
+
+------------------
+
+Patch Notes:
+---
 v0.2a - ??/??/2011
 ~ COMING UP! 
   Going to start on json parsing and storing wowhead data in the database.
   
-------------------
+---
 v0.1a - 15/08/2011
 ~ Made everything up to this point.
 
