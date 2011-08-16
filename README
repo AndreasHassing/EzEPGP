@@ -43,12 +43,21 @@ your database. And that's not very interesting. Stay tuned!
 
 Patch Notes:
 ---
-v0.2a - ??/??/2011
-~ COMING UP! 
-  Going to start on json parsing and storing wowhead data in the database.
+v0.3a - ??/??/2011
+~ COMING!!
+~ Going to add a EPGP-viewer in a table, with some easy-to-use css styling.
+~ Optimization of json parsing, so that you obtain more information about
+  what is currently being parsed, and on-finish information.
+
+---
+v0.2a - 16/08/2011
++ Finished up the json parsing script. ezEPGP now obtains the ep+gp+pr and
+  latest loot information from the json dump.
++ Fixed the database duplicates, and added a 'existing user' check before
+  query.
   
 ---
 v0.1a - 15/08/2011
-~ Made everything up to this point.
++ Made everything up to this point.
 
 _________________________________END_OF_FILE_________________________________
