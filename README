@@ -1,5 +1,5 @@
          (        )
-         O        O	 This project is currently in the W.I.P. drawer.
+         O        O	 		-- Finished --
          ()      ()
           Oo.nn.oO	         THANKS FOR HOSTING THE PROJECT
            _mmmm_	    ****************************************
@@ -21,26 +21,35 @@ Project Name:
 ezEPGP - https://github.com/AndreasHassing/EzEPGP
 
 Project Description:
-Hey everyone! This is an alternative to webEPGP, if you want to host your
-EPGP on your own website. This system also allows full customization, as
-I won't come running if you change anything, it's basically free-to-abuse.
-
-There is one thing though, I'd love it if you left the link to my personal
-blog on the script  ():3
-
-I have tons of ideas for this side-project, so stay tuned :)
+Rewrote this entire project 2013. I'm not playing the game anymore, so might
+as well release the best I have right now, and let the community have it.
 
 ------------------
 
 Installing:
-'OMG WHY ARE THERE NO INSTALLATION INSTRUCTIONS1?
-Because, at this point the ezEPGP is only capable of pushing json data to
-your database. And that's not very interesting. Stay tuned!
+There is 1 file! Edit the variable names at the top of the PHP-part!
+
+The $EPGP_URL is the URL of your RAW PasteBin. Take ours (Prowess) as an
+example: http://pastebin.com/raw.php?i=Ct0gatSH
+It's the output the EPGP addon gives, and you throw that in an unlisted
+PasteBin that you can edit later (put it on your account). After that
+you're set, and the website will update it once pr. viewer once a day,
+unless you specifically request a refresh like so:
+yoursite.com/epgpviewer.php?reload=1 // that will force the program to
+refresh with the latest data from pastebin.
+
+Everything in the viewer is cached, so you'll only request characters and
+pastebin data once pr. update and not pr. view.
+
+N'joy!
 
 
 ------------------
 
 Patch Notes:
+v1.0 - 15/02/2013
+~ Rewrote, and finished. Enjoy!
+
 ---
 v0.3a - ??/??/2011
 ~ COMING!!
