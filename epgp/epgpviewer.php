@@ -1,6 +1,6 @@
 <html>
 <head>
-<title>Prowess' EPGP Viewer (alpha)</title>
+<title><? echo $GUILDNAME ?> EPGP Viewer (alpha)</title>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <style>
 body {background-color:black;color:#F5F5F5;text-align:center;}
