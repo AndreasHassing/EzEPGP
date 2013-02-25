@@ -1,18 +1,19 @@
+<?php 	
+	$EPGP_URL = 	"http://pastebin.com/raw.php?i=Ct0gatSH"; // Link to your pastebin (check ours for example)
+	$REGION = 	"eu"; // EU or US or whatever
+	$REALM = 	"Ravencrest"; // your guilds realm
+	$GUILDNAME = 	"Prowess"; // your guildname
+?>
+
 <html>
 <head>
-<title><? echo $GUILDNAME ?> EPGP Viewer (alpha)</title>
+<title><?php echo $GUILDNAME ?> EPGP Viewer (alpha)</title>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <style>
 body {background-color:black;color:#F5F5F5;text-align:center;}
 table {margin-left:auto;margin-right:auto;}
 </style>
 <?php
-	
-	$EPGP_URL = 	"http://pastebin.com/raw.php?i=Ct0gatSH"; // Link to your pastebin (check ours for example)
-	$REGION = 	"eu"; // EU or US or whatever
-	$REALM = 	"Ravencrest"; // your guilds realm
-	$GUILDNAME = 	"Prowess"; // your guildname
-
 	// $types[Classes/Races][Type ID]
 	$types = array(
 		"Classes" => array(	1 => array("Warrior", "C79C6E", "icons/classes/Warrior.png"),
